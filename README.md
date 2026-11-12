@@ -7,7 +7,7 @@ An Unreal Engine 5.8 C++ co-op shooter and parkour prototype with LAN play, serv
 ## Kurulum / Setup
 
 1. Unreal Engine 5.8 ve Visual Studio C++ oyun geliştirme araçlarını kurun. / Install UE 5.8 and Visual Studio's C++ game development tools.
-2. `git clone https://github.com/ahmetefesensoy/unreal-deneme.git` ve `git lfs pull` çalıştırın. / Clone and pull LFS files.
+2. `git clone https://github.com/ahmetefesensoy/unreal-deneme.git C:\src\unreal-deneme` ve proje içinde `git lfs pull` çalıştırın. Motorun MSVC/UBA zinciri bu bilgisayarda Türkçe karakterli yolda derlenemedi; ASCII klasör adı kullanın. / Clone into an ASCII-only path: the tested toolchain failed to build in a path containing Turkish characters.
 3. [Soul: City](https://www.fab.com/listings/dd77fee6-0ad2-41ce-b32c-09300c24c9f3) ve [Paragon: Murdock](https://www.fab.com/listings/89ae5876-3350-432e-882b-7d617e8c7e6f) paketlerini kendi Fab hesabınızdan edinin; içerikleri `Content/SoulCity` ve `Content/ParagonMurdock` yollarına ekleyin. / Obtain both packs under your own applicable licenses and import them at these exact paths.
 4. PowerShell'de proje kökünden derleyin / Build from the repository root:
 
