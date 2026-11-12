@@ -1,0 +1,19 @@
+# Local editor and build state
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+.vs/
+*.sln
+*.VC.db
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+Config/DefaultEditorPerProjectUserSettings.ini
+__pycache__/
+*.py[cod]
+.env
+.env.*
+# Import licensed packs locally. Generated maps may contain pack content.
+Content/
+Plugins/*/Content/
+dist/
